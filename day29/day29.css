@@ -1,0 +1,139 @@
+@media screen and (max-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .day1 {
+    background-color: rgb(242, 245, 252);
+    height: 100px;
+    width: 100%;
+  }
+  .day1 img {
+    width: 140px;
+  }
+  .dayStar {
+    display: grid;
+  }
+  .starDiv {
+    display: flex;
+  }
+  .dayStar h3 {
+    margin-top: 30px;
+    padding-left: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  #beginner {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-left: 5px;
+  }
+  .starDiv {
+    padding-left: 20px;
+    margin-top: 4px;
+  }
+  .day1 img {
+    position: relative;
+    left: 220px;
+    top: -105px;
+  }
+  .star1 {
+    color: rgb(83, 83, 237);
+  }
+  #sect2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  .exercise h4 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .exercise {
+    margin-left: 20px;
+  }
+  .exercise p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: #616161;
+  }
+  .time h4 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .time p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: #616161;
+  }
+  .anim {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .anim h4 {
+    margin-right: 20px;
+  }
+  .border1 {
+    background-color: #616161;
+    width: 1px;
+    height: 19px;
+    margin-top: 10px;
+  }
+  .border2 {
+    background-color: #616161;
+    width: 1px;
+    height: 19px;
+    margin-top: 10px;
+  }
+  #section3 {
+    background-color: whitesmoke;
+    padding-top: 20px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  #durationInput {
+    margin-left: 20px;
+  }
+  #workoutSelect {
+    margin-left: 20px;
+  }
+  .buttonDiv {
+    padding-left: 90px;
+    padding-top: 20px;
+  }
+  .buttonDiv button {
+    padding: 10px 12px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: rgb(49, 49, 228);
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+  }
+  .buttonDiv button:disabled {
+    background-color: darkgray;
+  }
+  .buttonDiv button:hover {
+    background-color: blue;
+  }
+  #timer {
+    font-size: 17px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: bolder;
+  }
+  #section3 {
+    margin-top: 90px;
+  }
+  #workoutSelect {
+    width: 110px;
+  }
+}
